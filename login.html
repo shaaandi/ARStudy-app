@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/login.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+
+<body>
+	<img class="background" src="imgs/background.png">
+	<div class="container row">
+		<div class="image">
+			<img src="imgs/books.svg">
+		</div>
+		<div class="loginbox">
+			<form action="" method="" id="loginform">
+				<img class="loginimage" src="imgs/profile.svg">
+				<h2>Welcome</h2>
+				<div class="inputbox first">
+					<div class="i">
+						<i class="fas fa-envelope" id="iconemaillogin"></i>
+					</div>
+					<div>
+						<h5 id="email">Email</h5>
+						<input class="inputs one" type="text" name="">
+					</div>
+				</div>
+				<div class="inputbox second">
+					<div class="i">
+						<i class="fas fa-lock" id="iconpasswordlogin"></i>
+					</div>
+					<div>
+						<h5 id="password">Password</h5>
+						<input class="inputs two" type="Password" name="">
+					</div>
+				</div>
+				<a href="#">Forgot Password?</a>
+				<input type="submit" class="btn">
+				<span>Don't have an Account?  </span><a id="signup" class="ls" href="#">Sign Up</a> 
+			</form>
+
+
+			<form action="" method="" id="signupform" class="display">
+				<img class="loginimage" src="imgs/profile.svg">
+				<h2>Sign Up</h2>
+				<div class="inputbox first">
+					<div class="i">
+						<i class="fas fa-user" id="iconfullname"></i>
+					</div>
+					<div>
+						<h5 id="fullname">Full Name</h5>
+						<input class="inputs three" type="text" name="">
+					</div>
+				</div>
+
+				<div class="inputbox first">
+					<div class="i">
+						<i class="fas fa-envelope" id="iconemailsignup"></i>
+					</div>
+					<div>
+						<h5 id="emailsignup">Email</h5>
+						<input class="inputs four" type="text" name="">
+					</div>
+				</div>
+				<div class="inputbox second">
+					<div class="i">
+						<i class="fas fa-lock" id="iconpasswordsignup"></i>
+					</div>
+					<div>
+						<h5 id="passwordsignup">Password</h5>
+						<input class="inputs five" type="Password" name="">
+					</div>
+				</div>
+			
+				<div class="inputbox first">
+					<div class="i">
+						<i class="fas fa-university" id="iconinstitute"></i>
+					</div>
+					<div>
+						<h5 id="university">Institution Name</h5>
+						<input class="inputs six" type="text" name="">
+					</div>
+				</div>
+
+
+				<a href="#">Forgot Password?</a>
+				<input type="submit" class="btn">
+				<span>Already have an Account?  </span><a id="login" class="ls" href="#">Login</a> 
+			</form>
+		</div>
+	</div>
+<script type="text/javascript" src="assets/javascript/login.js"></script>	
+</body>
+</html>
